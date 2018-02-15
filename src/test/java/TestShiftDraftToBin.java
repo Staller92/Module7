@@ -2,7 +2,6 @@ import constants.Data;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.DraftPage;
 import pages.LoginPage;
@@ -19,10 +18,12 @@ public class TestShiftDraftToBin {
     private NewLatterPage newLatterPage;
     private DraftPage draftPage;
 
-  //  @BeforeClass
-  //  public void beforeClass() {
- //       driver = WebDriverSingleton.getWebDriverInstance();
- //   }
+/*
+    @BeforeClass
+    public void beforeClass() {
+        driver = WebDriverSingleton.getWebDriverInstance();
+    }
+*/
 
 
     @AfterClass
