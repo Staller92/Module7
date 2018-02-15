@@ -19,16 +19,16 @@ public class TestShiftDraftToBin {
     private NewLatterPage newLatterPage;
     private DraftPage draftPage;
 
-    @BeforeClass
-    public void beforeClass() {
-        driver = WebDriverSingleton.getWebDriverInstance();
-    }
+  //  @BeforeClass
+  //  public void beforeClass() {
+ //       driver = WebDriverSingleton.getWebDriverInstance();
+ //   }
 
 
     @AfterClass
     public void afterClass() {
 
-        WebDriverSingleton.getWebDriverInstance().quit();
+        WebDriverSingleton.getWebDriverInstance().close();
 
     }
 

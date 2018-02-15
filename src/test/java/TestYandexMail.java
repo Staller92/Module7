@@ -35,7 +35,7 @@ public class TestYandexMail {
     @AfterSuite
     public void afterClass() {
 
-        WebDriverSingleton.getWebDriverInstance().quit();
+        WebDriverSingleton.getWebDriverInstance().close();
 
     }
 
