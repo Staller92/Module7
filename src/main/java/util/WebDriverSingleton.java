@@ -3,9 +3,11 @@ package util;
 
 import constants.Data;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class WebDriverSingleton {
@@ -22,7 +24,7 @@ public class WebDriverSingleton {
     }
 
     private static WebDriver init() {
- //   System.setProperty(Data.CHROME_DRIVER, System.getProperty("user.dir") + Data.PATH_TO_CHROME_DRIVER);
+     //   System.setProperty(Data.CHROME_DRIVER, System.getProperty("user.dir") + Data.PATH_TO_CHROME_DRIVER);
       //  driver = new ChromeDriver();
 
 
